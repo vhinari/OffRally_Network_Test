@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\OffRally_0319\OffRally\obj\Debug\Assembly-CSharp-Editor-vs.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\OffRally_0319\OffRally\obj\Debug\Assembly-CSharp-Editor.dll
+C:\Users\Administrator\Desktop\OffRally_0319\OffRally\obj\Debug\Assembly-CSharp-Editor.pdb

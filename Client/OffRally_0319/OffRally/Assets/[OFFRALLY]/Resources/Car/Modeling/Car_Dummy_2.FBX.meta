@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: d9d7fdca12d996148b83e3d1322794f8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: blinkers
+    100002: body
+    100004: bolts
+    100006: bolts01
+    100008: bolts02
+    100010: bolts03
+    100012: brake
+    100014: brake caliper
+    100016: brake caliper01
+    100018: brake caliper02
+    100020: brake caliper03
+    100022: brake01
+    100024: brake02
+    100026: brake03
+    100028: //RootNode
+    100030: dash
+    100032: doors
+    100034: doors01
+    100036: engine
+    100038: exhaust pipe
+    100040: f_bumper
+    100042: f_lights
+    100044: frame
+    100046: grill
+    100048: headlights
+    100050: hood
+    100052: hood vents
+    100054: Object01
+    100056: r_blinkers
+    100058: r_bumper
+    100060: r_diffusor
+    100062: r_leds
+    100064: r_lights
+    100066: radiator vent
+    100068: radiator+inside
+    100070: rear lights plastic
+    100072: rear wing
+    100074: rim_inner
+    100076: rim_inner01
+    100078: rim_inner02
+    100080: rim_inner03
+    100082: rim_outer
+    100084: rim_outer01
+    100086: rim_outer02
+    100088: rim_outer03
+    100090: roof
+    100092: seat
+    100094: seat01
+    100096: seatbelt
+    100098: seatbelt tighteners
+    100100: seatbelt tighteners2
+    100102: seatbelt2
+    100104: steering column
+    100106: steeringwheel
+    100108: switches
+    100110: switches01
+    100112: switches02
+    100114: tire
+    100116: tire01
+    100118: tire02
+    100120: tire03
+    100122: Tire_H_L
+    100124: Tire_H_R
+    100126: Tire_U_L
+    100128: Tire_U_R
+    100130: trunk
+    100132: window decal
+    100134: window decal2
+    100136: windshield
+    400000: blinkers
+    400002: body
+    400004: bolts
+    400006: bolts01
+    400008: bolts02
+    400010: bolts03
+    400012: brake
+    400014: brake caliper
+    400016: brake caliper01
+    400018: brake caliper02
+    400020: brake caliper03
+    400022: brake01
+    400024: brake02
+    400026: brake03
+    400028: //RootNode
+    400030: dash
+    400032: doors
+    400034: doors01
+    400036: engine
+    400038: exhaust pipe
+    400040: f_bumper
+    400042: f_lights
+    400044: frame
+    400046: grill
+    400048: headlights
+    400050: hood
+    400052: hood vents
+    400054: Object01
+    400056: r_blinkers
+    400058: r_bumper
+    400060: r_diffusor
+    400062: r_leds
+    400064: r_lights
+    400066: radiator vent
+    400068: radiator+inside
+    400070: rear lights plastic
+    400072: rear wing
+    400074: rim_inner
+    400076: rim_inner01
+    400078: rim_inner02
+    400080: rim_inner03
+    400082: rim_outer
+    400084: rim_outer01
+    400086: rim_outer02
+    400088: rim_outer03
+    400090: roof
+    400092: seat
+    400094: seat01
+    400096: seatbelt
+    400098: seatbelt tighteners
+    400100: seatbelt tighteners2
+    400102: seatbelt2
+    400104: steering column
+    400106: steeringwheel
+    400108: switches
+    400110: switches01
+    400112: switches02
+    400114: tire
+    400116: tire01
+    400118: tire02
+    400120: tire03
+    400122: Tire_H_L
+    400124: Tire_H_R
+    400126: Tire_U_L
+    400128: Tire_U_R
+    400130: trunk
+    400132: window decal
+    400134: window decal2
+    400136: windshield
+    2300000: blinkers
+    2300002: body
+    2300004: bolts
+    2300006: bolts01
+    2300008: bolts02
+    2300010: bolts03
+    2300012: brake
+    2300014: brake caliper
+    2300016: brake caliper01
+    2300018: brake caliper02
+    2300020: brake caliper03
+    2300022: brake01
+    2300024: brake02
+    2300026: brake03
+    2300028: dash
+    2300030: doors
+    2300032: doors01
+    2300034: engine
+    2300036: exhaust pipe
+    2300038: f_bumper
+    2300040: f_lights
+    2300042: frame
+    2300044: grill
+    2300046: headlights
+    2300048: hood
+    2300050: hood vents
+    2300052: Object01
+    2300054: r_blinkers
+    2300056: r_bumper
+    2300058: r_diffusor
+    2300060: r_leds
+    2300062: r_lights
+    2300064: radiator vent
+    2300066: radiator+inside
+    2300068: rear lights plastic
+    2300070: rear wing
+    2300072: rim_inner
+    2300074: rim_inner01
+    2300076: rim_inner02
+    2300078: rim_inner03
+    2300080: rim_outer
+    2300082: rim_outer01
+    2300084: rim_outer02
+    2300086: rim_outer03
+    2300088: roof
+    2300090: seat
+    2300092: seat01
+    2300094: seatbelt
+    2300096: seatbelt tighteners
+    2300098: seatbelt tighteners2
+    2300100: seatbelt2
+    2300102: steering column
+    2300104: steeringwheel
+    2300106: switches
+    2300108: switches01
+    2300110: switches02
+    2300112: tire
+    2300114: tire01
+    2300116: tire02
+    2300118: tire03
+    2300120: trunk
+    2300122: window decal
+    2300124: window decal2
+    2300126: windshield
+    3300000: blinkers
+    3300002: body
+    3300004: bolts
+    3300006: bolts01
+    3300008: bolts02
+    3300010: bolts03
+    3300012: brake
+    3300014: brake caliper
+    3300016: brake caliper01
+    3300018: brake caliper02
+    3300020: brake caliper03
+    3300022: brake01
+    3300024: brake02
+    3300026: brake03
+    3300028: dash
+    3300030: doors
+    3300032: doors01
+    3300034: engine
+    3300036: exhaust pipe
+    3300038: f_bumper
+    3300040: f_lights
+    3300042: frame
+    3300044: grill
+    3300046: headlights
+    3300048: hood
+    3300050: hood vents
+    3300052: Object01
+    3300054: r_blinkers
+    3300056: r_bumper
+    3300058: r_diffusor
+    3300060: r_leds
+    3300062: r_lights
+    3300064: radiator vent
+    3300066: radiator+inside
+    3300068: rear lights plastic
+    3300070: rear wing
+    3300072: rim_inner
+    3300074: rim_inner01
+    3300076: rim_inner02
+    3300078: rim_inner03
+    3300080: rim_outer
+    3300082: rim_outer01
+    3300084: rim_outer02
+    3300086: rim_outer03
+    3300088: roof
+    3300090: seat
+    3300092: seat01
+    3300094: seatbelt
+    3300096: seatbelt tighteners
+    3300098: seatbelt tighteners2
+    3300100: seatbelt2
+    3300102: steering column
+    3300104: steeringwheel
+    3300106: switches
+    3300108: switches01
+    3300110: switches02
+    3300112: tire
+    3300114: tire01
+    3300116: tire02
+    3300118: tire03
+    3300120: trunk
+    3300122: window decal
+    3300124: window decal2
+    3300126: windshield
+    4300000: headlights
+    4300002: f_bumper
+    4300004: body
+    4300006: hood
+    4300008: doors
+    4300010: trunk
+    4300012: windshield
+    4300014: exhaust pipe
+    4300016: r_diffusor
+    4300018: rear wing
+    4300020: f_lights
+    4300022: blinkers
+    4300024: grill
+    4300026: hood vents
+    4300028: roof
+    4300030: radiator vent
+    4300032: radiator+inside
+    4300034: frame
+    4300036: seat
+    4300038: steering column
+    4300040: steeringwheel
+    4300042: seatbelt
+    4300044: seatbelt tighteners
+    4300046: seatbelt tighteners2
+    4300048: seatbelt2
+    4300050: switches
+    4300052: seat01
+    4300054: dash
+    4300056: engine
+    4300058: switches01
+    4300060: switches02
+    4300062: window decal
+    4300064: window decal2
+    4300066: doors01
+    4300068: r_bumper
+    4300070: r_lights
+    4300072: Object01
+    4300074: rear lights plastic
+    4300076: r_leds
+    4300078: r_blinkers
+    4300080: tire02
+    4300082: rim_inner02
+    4300084: bolts02
+    4300086: brake caliper02
+    4300088: brake02
+    4300090: rim_outer02
+    4300092: rim_inner01
+    4300094: brake01
+    4300096: brake caliper01
+    4300098: bolts01
+    4300100: rim_outer01
+    4300102: tire01
+    4300104: rim_inner
+    4300106: bolts
+    4300108: brake
+    4300110: brake caliper
+    4300112: rim_outer
+    4300114: tire
+    4300116: bolts03
+    4300118: rim_inner03
+    4300120: brake03
+    4300122: brake caliper03
+    4300124: rim_outer03
+    4300126: tire03
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
