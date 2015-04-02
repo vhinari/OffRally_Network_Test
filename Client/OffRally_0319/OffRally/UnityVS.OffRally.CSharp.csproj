@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8D388064-A40E-2F17-8542-168046CFEF8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.6.1f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.OffRally.CSharp.Plugins.csproj">
+      <Project>{48A69AA8-B4B0-12A8-5F6D-762147984E1F}</Project>
+      <Name>UnityVS.OffRally.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\External\RealisticCarControllerV2\Scripts\AntiRollBar.cs" />
+    <Compile Include="Assets\External\RealisticCarControllerV2\Scripts\CamManager.cs" />
+    <Compile Include="Assets\External\RealisticCarControllerV2\Scripts\CarChange.cs" />
+    <Compile Include="Assets\External\RealisticCarControllerV2\Scripts\CarControllerV2.cs" />
+    <Compile Include="Assets\External\RealisticCarControllerV2\Scripts\NGUIController.cs" />
+    <Compile Include="Assets\External\ReliefPack\ExampleScenes\ReliefTerrain\_appControlerShaderOnTriplanarMesh.cs" />
+    <Compile Include="Assets\External\ReliefPack\ExampleScenes\ReliefTerrain\_appControlerTerrain.cs" />
+    <Compile Include="Assets\External\ReliefPack\ExampleScenes\ReliefTerrain\_appControlerTerrain2Geometry.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\FPSmeter.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\GlossBakedTextureReplacement.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\MipTexMap.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\MouseOrbitCS.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RTPFogUpdate.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RTPGlossBaked.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RTPObjExporter.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RTPTangentSolver.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RTP_LODmanager.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\ReliefShaders_applyLightForDeferred.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\RotateGameObject.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\SelectorHelperClass.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\Common\WireFrameLineRenderer.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\GeometryVsTerrainBlend.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\ReliefTerrain.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\ResolveHoleCollision.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\SyncCausticsWaterLevel.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\_Internal\ReliefTerrainGlobalSettingsHolder.cs" />
+    <Compile Include="Assets\External\ReliefPack\Scripts\ReliefTerrain\_Internal\ReliefTerrainPresetHolder.cs" />
+    <Compile Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\VertexControl\ReliefTerrainVertexBlendTriplanar.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildR.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRCamera.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRColours.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRCurve.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRGenerator.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRMonitor.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRPoint.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRReset.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRStuntUtil.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRTerrain.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRTexture.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\TrackBuildRTrack.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\DynamicMeshGenericMultiMaterial.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\DynamicMeshGenericMultiMaterialMesh.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\GPSMaths.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\ProjectUVs.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\ShaderProperties.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\SplineMaths.cs" />
+    <Compile Include="Assets\External\TrackBuildR\Scripts\Utils\XMLVariableConverter.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\CarcollisionManager.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\Checker.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\GameManager.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\HUDManager.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\InGame.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\Intro.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\LapCheck.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\MainMenumove.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\Menu.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\PlayButton.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\SceneChange.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\SceneChange2.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\StartButton.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\TimeRecoder.cs" />
+    <Compile Include="Assets\[OFFRALLY]\Scripts\carcollision.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\External\RealisticCarControllerV2\Scripts\Skidmarks.shader" />
+    <None Include="Assets\External\ReliefPack\ExampleScenes\ReliefTerrain\TerrainScene Assets\flowMap_generation.txt" />
+    <None Include="Assets\External\ReliefPack\Models\ReliefTerrain\Michael O. demo stuff\courtesy info.txt" />
+    <None Include="Assets\External\ReliefPack\readme.txt" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;Caustics.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;Snow.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\BumpedSpecular&amp;SnowSimple.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\CustomizableShader1Layer(PBL).shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\CustomizableShader2Layers(PBL).shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\PM&amp;Caustics.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\PM_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_2VertexPaint U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap_2VertexPaint U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Bonus shaders\WaterShader_FlowMap_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\000_readme_Making_GeomBlend_Compliant_Shaders.txt" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\2xParallaxMapped\GeometryBlend_PM_2VertexPaint_HB_COMPLEX.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\CustomizableShader1Layer(PBL)_geomblend.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\CustomizableShader2Layers(PBL)_geomblend.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedDetailSnow.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedDiffuseOverlay.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\GeometryBlend_BumpedSpecular.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ParallaxMapped\GeometryBlend_PM_HB_COMPLEX.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ReliefTerrainPMStandalone_geomblend.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\ReliefTerrainPMTriplanarStandalone_geomblend.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint_HB U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_2VertexPaint_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint_HB U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_2VertexPaint_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_HB U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_FlowMap_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_HB U5.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\GeomBlendCompliant\Water\GeometryBlend_WaterShader_HB.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrain2GeometryBlendBase.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrainBlendBaseCutout.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Internal\ReliefTerrainGeometryBlendBase.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\layer count info.txt" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\PBL deferred info.txt" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Planet\PlanetaryTerrain guidelines.txt" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\Planet\ReliefTerrainTriplanarPlanet.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain2Geometry.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-AddPass.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-FarOnly.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\ReliefTerrain-FirstPass.shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\RTP_AddBase.cginc" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\RTP_Base.cginc" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\VertexControl\ReliefTerrainPMTriplanarStandalone Tessellation(Phong).shader" />
+    <None Include="Assets\External\ReliefPack\Shaders\ReliefTerrain\VertexControl\ReliefTerrainPMTriplanarStandalone.shader" />
+    <None Include="Assets\External\ReliefPack\Textures\ReliefTerrain\Combined\info.txt" />
+    <None Include="Assets\External\ReliefPack\Textures\ReliefTerrain\Planet\texture_info.txt" />
+    <None Include="Assets\External\ReliefPack\verinfo.txt" />
+    <None Include="Assets\External\sky5X\README.txt" />
+    <None Include="Assets\External\TrackBuildR\1.0 Upgrade readme.txt" />
+    <None Include="Assets\External\TrackBuildR\readme.txt" />
+    <None Include="Assets\External\TrackBuildR\versionhistory.txt" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

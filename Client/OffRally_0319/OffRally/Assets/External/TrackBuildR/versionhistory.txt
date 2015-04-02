@@ -1,0 +1,44 @@
+------------------------------------------------------
+Version History
+------------------------------------------------------
+Any issues, comments or suggestions please send to email@jasperstocker.com
+
+------------------------------------------------------
+1.2 - 28 April 2014
+------------------------------------------------------
+ADDED Terrain Merge Support
+ADDED Fit Track to Terrain
+ADDED Stunt Mode options to allow easy one button click stunt part addition (loop, jump, twist jump)
+ADDED Preview options for forward/reverse and where the start point is.
+ADDED polycount display for track
+Fixed preview not accounting for track position
+
+------------------------------------------------------
+1.11 - 13 April 2014
+------------------------------------------------------
+ADDED Google Earth KML data import
+ADDED User material support
+Fixed track boundary not matching track position
+Fixed some XML data not exporting correctly
+Fixed shader selection to show available shaders after 4.3 change
+Fixed track not updating on texture modification
+
+------------------------------------------------------
+1.1 - 19 March 2014 Stunt Track Update
+------------------------------------------------------
+WARNING Track BuildR 1.1 does not support 1.0 tracks - email me if you do need to upgrade and check the readme
+ADDED Support for Loops, Twists, Bridges and Jumps Added
+ADDED One click add loop function added
+ADDED Track extrusion added
+ADDED FBX/OBJ Export
+ADDED XML export and import
+ADDED Substance Texture Support
+ADDED minor adjustments to UI
+Fixed add point not working accurately
+Fixed new Undo system
+Known Issue lightmapping may give an error, this is a bug logged with Unity and will hopefully be resolved soon
+
+------------------------------------------------------
+1.0 - 15 August 2013
+------------------------------------------------------
+Inital release

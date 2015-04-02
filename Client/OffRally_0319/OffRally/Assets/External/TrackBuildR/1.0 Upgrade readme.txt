@@ -1,0 +1,29 @@
+------------------------------------------------------
+Upgrading from 1.0 to 1.1
+------------------------------------------------------
+PLEASE backup your work before attempting this journey. While every attempt has been made to ensure it works, you never know.
+Any issues, comments or suggestions please send to  me at email@jasperstocker.com
+
+------------------------------------------------------
+Overview of Process
+------------------------------------------------------
+Backup your project now! :o)
+First you need to not upgrade to 1.1. Keep your project at version 1.0
+Email me with your invoice number and I can provide you with some new scripts for 1.0
+These new scripts add an XML export option to the options menu (the cog)
+Once you've got an XML file exported, now upgrade to 1.1
+1.1 has an import option in the new export menu (last menu item)
+You can create a new track and then use the import to bring your 1.0 track in
+DONE! It should keep all your textures intact. Email me if you have any issues
+
+------------------------------------------------------
+Why is this so damn complicated?!
+------------------------------------------------------
+Yeah, really sucks. I'm sorry, but it's the best way to get an upgrade path from 1.0 to 1.1.
+1.1 has been slightly rebuilt in the core and there was no way I could keep backwards compatibility.
+The new Undo system Unity brought in with 4.3 has necessitated this along with serialisation issues it's had with using ScriptableObjects
+They are the devil - keep away from them! ;o)
+The new version fully supports prefabs and copy pasting now though so there is a bonus!
+Hope you enjoy
+
+Jasper

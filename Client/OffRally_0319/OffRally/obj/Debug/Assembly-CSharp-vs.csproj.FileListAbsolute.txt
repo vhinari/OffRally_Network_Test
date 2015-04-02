@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\OffRally_0319\OffRally\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\OffRally_0319\OffRally\obj\Debug\Assembly-CSharp.dll
